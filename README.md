@@ -3,8 +3,9 @@ Verifying the integrity of transmitted files by calculating and comparing Files 
 
 ## Usage
 
-        checksum [action] [argument] --hashtype [type]
-        actions
+        checksum.py [action] [argument] --hashtype [type]
+        
+        [actions]
         --compare or -c [file1] [file2]    -   Calculate and compare the hashvalue of two files
                         [file] [hashvalue] -   Calculate the hashvalue of a file and compare to a hashvalue 
         --hash or -s [file]                -   Give the hashvalue of a file
